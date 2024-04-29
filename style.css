@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: honeydew;
+}
+
 h1 {
     font-weight: 800;
 }
@@ -28,3 +32,22 @@ p, li {
     width: 225px;
     height: 225px;
 }
+
+.title {
+    text-align: center;
+}
+
+#recipes-list { 
+    background-color:rgba(233, 58, 58, 0.212);
+    width: 300px;
+    margin: 0 auto;
+    padding: 16px;
+    border: 2px solid rgb(177, 7, 7)
+}
+
+#recipes-list li {
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
